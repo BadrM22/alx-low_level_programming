@@ -8,7 +8,7 @@
  *
  * @n - stored a random number
  *
- * return (0)  (Success)
+ * Return: 0
  */
 
 int main(void)
@@ -26,12 +26,14 @@ int main(void)
 	}
 	else if (last_digit > 5 && last_digit != 0)
 	{
-		printf("last digit if %d is %d and is less than 5\n", n,\
+		printf("last digit if %d is %d and is greater than 5\n", n,\
 		last_digit);
 	}	
 	else
 	{
 		printf("Last digit of %d is %d and is 0\n", n, last_digit);
 	}
+
 	return (0);
+
 }
