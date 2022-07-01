@@ -6,7 +6,6 @@
  * main - Entry Point
  * @n - a generated random number
  *
- * checks wether @n is positive or negitive
  * Return:  0
  */
 
@@ -29,5 +28,6 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}	
+
 	return (0);
 }
