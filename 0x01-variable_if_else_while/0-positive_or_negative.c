@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 
 /**
  * main - Entry Point
@@ -17,15 +18,15 @@ int main(void)
 
 	if (n < 0)
 	{
-		printf("is positive");
+		printf("%d is negative\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("zerp");
+		printf("%d is zero\n", n);
 	}
 	else
 	{
-		printf("is positive");
+		printf("%d is positive\n", n);
 	}
 	
 	return (0);
