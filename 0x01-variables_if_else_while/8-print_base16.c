@@ -19,10 +19,10 @@ int main(void)
 
 	for (c = 'a'; c <= 'f'; c++)
 	{
-		printchar(c);
+		putchar(c);
 	}
 
-	printchar('\n');
+	putchar('\n');
 
 	return (0);
 
