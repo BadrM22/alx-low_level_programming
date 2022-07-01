@@ -4,7 +4,7 @@
   * main - print all possible different combinations
   * of tow digits separated by comma then space
   *
-  *return: 0
+  *Return: 0
   */
 
 int main(void)
