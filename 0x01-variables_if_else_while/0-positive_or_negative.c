@@ -7,8 +7,9 @@
  * @n - a generated random number
  *
  * checks wether @n is positive or negitive
- * return (0) (Success)
+ * Return:  0
  */
+
 int main(void)
 {
 	int n;
@@ -27,7 +28,6 @@ int main(void)
 	else
 	{
 		printf("%d is positive\n", n);
-	}
-	
+	}	
 	return (0);
 }
