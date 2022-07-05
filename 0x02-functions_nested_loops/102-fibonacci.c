@@ -9,7 +9,9 @@ int fib(int n);
 
 int main(void)
 {
-	for (int x = 0; x < 51; x++)
+	int x;
+	
+	for (x = 0; x < 51; x++)
 	{
 		printf("%d, ", fib(x));
 	}
