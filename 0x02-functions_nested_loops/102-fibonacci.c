@@ -15,24 +15,23 @@ int main(void)
 
 	int j = 1;
 
-	unsigned long fib;
+	long fib;
 
-	for (x = 0; x < 50; x++)
+	while (x < 50)
 	{
 		fib = i + j;
 
-		if (x != 49)
+		if (n != 49)
 		{
-			printf("%lu, ", fib);
+			printf("%ld, ", fib);
 		}
 		else
 		{
-			printf("%lu\n", fib);
+			printf("%ld\n", fib);
 		}
 		i = j;
-
 		j = fib;
-
+		x++;
 	}
 	return (0);
 }
