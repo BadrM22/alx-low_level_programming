@@ -9,7 +9,7 @@ int fib(int n);
 
 int main(void)
 {
-	int x;
+	int x = 0;
 
 	int i = 0;
 
