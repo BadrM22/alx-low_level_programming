@@ -11,25 +11,29 @@ int main(void)
 {
 	int x;
 	
+	int i = 0;
+	
+	int j = 0;
+	
+	int fib = 0;
+	
 	for (x = 0; x < 51; x++)
 	{
-		printf("%d, ", fib(x));
+		fib = i + j;
+
+		if (n != 49)
+		{
+			printf("%d, ", fib);
+		}
+		else
+		{
+			printf("%d\n", fib);
+		}
+		i = j;
+		
+		j = fib;
+
+		n++;
 	}
 	return (0);
-}
-
-/**
- * fib - Function to return a fibonacci number
- * @n: input to get fib number
- *
- * Return: int
- */
-
-int fib(int n)
-{
-	if (n < 2)
-	{
-		return (1);
-	}
-	return (fib(n - 1) + fib(n - 2));
 }
