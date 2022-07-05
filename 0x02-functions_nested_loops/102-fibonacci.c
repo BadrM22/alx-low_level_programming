@@ -33,7 +33,7 @@ int main(void)
 
 		j = fib;
 
-		n++;
+		x++;
 	}
 	return (0);
 }
