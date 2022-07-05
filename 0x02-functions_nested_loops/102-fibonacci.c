@@ -21,7 +21,7 @@ int main(void)
 	{
 		fib = i + j;
 
-		if (n != 49)
+		if (x != 49)
 		{
 			printf("%ld, ", fib);
 		}
