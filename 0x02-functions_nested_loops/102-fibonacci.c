@@ -15,7 +15,7 @@ int main(void)
 
 	int j = 1;
 
-	long fib = 0;
+	long fib;
 
 	for (x = 0; x < 51; x++)
 	{
