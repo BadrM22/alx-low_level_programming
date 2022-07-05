@@ -15,7 +15,7 @@ int main(void)
 
 	int j = 1;
 
-	int fib = 0;
+	long fib = 0;
 
 	for (x = 0; x < 51; x++)
 	{
@@ -23,11 +23,11 @@ int main(void)
 
 		if (x != 49)
 		{
-			printf("%d, ", fib);
+			printf("%ld, ", fib);
 		}
 		else
 		{
-			printf("%d\n", fib);
+			printf("%ld\n", fib);
 		}
 		i = j;
 
