@@ -12,13 +12,13 @@ int main(void)
 
 	int multi = 0;
 
-	while ( multi < 1024)
+	while (multi < 1024)
 	{
 		if (multi % 3 == 0 || multi % 5 == 0)
 		{
 			sum += multi;
 		}
-		mult++;
+		multi++;
 	}
 	printf("%d\n", sum);
 	return (0);
