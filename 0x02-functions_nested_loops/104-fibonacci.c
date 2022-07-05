@@ -24,8 +24,8 @@ int main(void)
 		{
 			printf("%ld\n", fib);
 		}
-		i = j;
-		j = fib;
+		x = y;
+		y = fib;
 		n++;
 	}
 	return (0);
