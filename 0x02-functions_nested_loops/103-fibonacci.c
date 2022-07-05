@@ -17,7 +17,7 @@ int main(void)
 	{
 		fib = i + j;
 
-		if (fib % 2 == 0)
+		if (fib < 4000000 && fib % 2 == 0)
 		{
 			sum += fib;
 		}
