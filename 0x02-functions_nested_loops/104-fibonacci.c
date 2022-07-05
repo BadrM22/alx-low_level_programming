@@ -10,7 +10,7 @@ int main(void)
 	int n = 0;
 	int x = 1;
 	int y = 2;
-	long fib;
+	unsigned long fib;
 
 	while (n < 98)
 	{
