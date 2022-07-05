@@ -17,7 +17,7 @@ int main(void)
 
 	long fib;
 
-	for (x = 0; x < 51; x++)
+	for (x = 0; x < 50; x++)
 	{
 		fib = i + j;
 
@@ -33,7 +33,6 @@ int main(void)
 
 		j = fib;
 
-		x++;
 	}
 	return (0);
 }
