@@ -10,13 +10,13 @@ int fib(int n);
 int main(void)
 {
 	int x;
-	
+
 	int i = 0;
-	
+
 	int j = 0;
-	
+
 	int fib = 0;
-	
+
 	for (x = 0; x < 51; x++)
 	{
 		fib = i + j;
@@ -30,7 +30,7 @@ int main(void)
 			printf("%d\n", fib);
 		}
 		i = j;
-		
+
 		j = fib;
 
 		n++;
