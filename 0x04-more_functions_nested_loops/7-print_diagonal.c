@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_diagonal - Function to print diagonal.
  * @n: input integer for repition

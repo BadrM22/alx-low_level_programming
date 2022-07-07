@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_line - Function to print '_' n times.
  * @n: input number
