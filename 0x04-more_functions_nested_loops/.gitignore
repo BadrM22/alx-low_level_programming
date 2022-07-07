@@ -3,3 +3,5 @@
 a.out
 _putchar.c
 *#'
+test.c
+*.sh
