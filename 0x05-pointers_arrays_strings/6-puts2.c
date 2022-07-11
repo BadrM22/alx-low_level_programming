@@ -7,14 +7,14 @@
  * Return: void
  */
 
-void puts(char *str)
+void puts2(char *str)
 {
 	int i = 0;
 
 	while (*(str + i))
 	{
 		_putchar(*(str + i));
-		i+=2;
+		i += 2;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
