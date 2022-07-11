@@ -2,7 +2,7 @@
 
 /**
  * print_rev - takes a pointer to a string ad reverse string to stdout
- * @str - input pointer to a string
+ * @s - input pointer to a string
  *
  * Return void
  */
