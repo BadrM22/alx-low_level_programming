@@ -2,16 +2,24 @@
 
 /**
  * print_rev - takes a pointer to a string ad reverse string to stdout
- * @s - input pointer to a string
+ * @s: input pointer to a string
  *
  * Return void
  */
 
 void print_rev(char *s)
 {
-	while (*s++ != 0)
+	int idx = 0;
+
+	while (*(str + idx))
 	{
-		_putchar(*(s - 2));
+		idx++;
+	}
+	idx -= 1;
+	while (idx >= 0)
+	{
+		_putchar(*(s + count));
+		idx--;
 	}
 	_putchar('\n');
 }
