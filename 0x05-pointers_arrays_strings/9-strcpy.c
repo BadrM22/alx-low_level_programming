@@ -1,14 +1,15 @@
 /**
- * _strcpy - function to copy a string
+ * _strcpy - function that copies a string to another pointer
  * @dest: input pointer to a string
  * @src: input string to be copied
  *
- * Returch: char
+ * Return: char
  */
 
 char *_strcpy(char *dest, char *src)
 {
 	int i;
+
 	i = 0;
 
 	while (*(src + i))
