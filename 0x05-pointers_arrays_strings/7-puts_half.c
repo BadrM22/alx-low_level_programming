@@ -9,26 +9,19 @@
 
 void puts_half(char *str)
 {
-	int str_len, n, i;
+	int size, half;
 
-	str_len = 0;
-	i = 0;
+	size = 0;
 
-	while (*(str + i))
+	while (*(str + size))
 	{
-		str_len++;
-		i++;
+		size++;
 	}
-	n = str_len / 2;
+	half = size / 2;
 
-	while (n < str_len)
+	while (half < size)
 	{
-		_putchar(*(str + n));
-		n++;
+		_putchar(*(str + half));
 	}
-	if (*str != '\n')
-	{
-		_putchar('\n');
-
-	}
+	_putchar('\n');
 }
