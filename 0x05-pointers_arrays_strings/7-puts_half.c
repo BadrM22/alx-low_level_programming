@@ -13,6 +13,8 @@ void puts_half(char *str)
 
 	size = 0;
 
+	half = 0;
+
 	while (*(str + size))
 	{
 		size++;
@@ -20,10 +22,11 @@ void puts_half(char *str)
 	if (size % 2 != 0)
 	{
 		--size;
+		++half;
 	}
 	half = size / 2;
 
-	while (half < size)
+	while (half <= size)
 	{
 		_putchar(*(str + half));
 		half++;
