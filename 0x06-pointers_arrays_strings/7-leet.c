@@ -11,9 +11,9 @@ char *leet(char *s)
 {
 	int i;
 
-	char *m = {'a', 'e', 'o', 't', 'l'};
+	char m[5] = {'a', 'e', 'o', 't', 'l'};
 
-	char *M = {'A', 'E', 'O', 'T', 'L'};
+	char M[5] = {'A', 'E', 'O', 'T', 'L'};
 
 	int code[] = {4, 3, 0, 7, 1};
 
