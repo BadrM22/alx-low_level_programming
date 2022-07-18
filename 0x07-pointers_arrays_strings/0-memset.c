@@ -4,7 +4,7 @@
  * @b: char byte to be filled in @s
  * @n: number for bytes in @s ti be filled with @b
  *
- * Retrun: char pointer
+ * Return: char pointer
  */
 
 char *_memset(char *s, char b, unsigned int n)
