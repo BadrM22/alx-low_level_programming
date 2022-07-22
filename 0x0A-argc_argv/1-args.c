@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * main - Program to print the count of command line arguments
  * @argc: count of command line arguments
