@@ -13,8 +13,8 @@ int main(int argc, char **argv)
 	(void) argv;
 	if (argc != 0)
 	{
-		-- argc;
-		
+		--argc;
+
 		printf("%d\n", argc);
 
 		return (0);
