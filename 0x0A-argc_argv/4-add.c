@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 				{
 					goto EXIT_ERROR;
 				}
-				if (j == strlen(argv[i]))
+				if (j == (int)(strlen(argv[i]) - 1))
 				{
 					break;
 				}
