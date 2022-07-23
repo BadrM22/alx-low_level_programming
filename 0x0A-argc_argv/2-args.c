@@ -11,8 +11,8 @@
 int main(int argc, char **argv)
 {
 	(void) argc;
-	
-	while (*argv)
+
+	while (*argv && count == 2)
 	{
 		printf("%s\n", *argv);
 		argv++;
