@@ -12,7 +12,7 @@ int main(int argc, char **argv)
 {
 	(void) argc;
 
-	while (*argv && count == 2)
+	while (*argv)
 	{
 		printf("%s\n", *argv);
 		argv++;
