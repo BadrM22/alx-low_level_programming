@@ -1,4 +1,4 @@
-#incldue "main.h"
+#include "main.h"
 
 /**
  * free_grid - function to free memory location of a 2-D array
