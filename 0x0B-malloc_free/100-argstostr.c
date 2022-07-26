@@ -14,12 +14,12 @@ char *argstostr(int ac, char **av)
 	char *str = NULL;
 	size_t i, j, idx = 0, len = 0;
 
-	if (ac <= 1 || av == NULL)
+	if (ac < 1 || av == NULL)
 	{
 		return (NULL);
 	}
 
-	for (i = 1; i < (size_t)ac; i++)
+	for (i = 0; i < (size_t)ac; i++)
 	{
 		len += strlen(av[i]);
 	}
@@ -31,7 +31,7 @@ char *argstostr(int ac, char **av)
 	{
 		return (NULL);
 	}
-	for (i = 1; i < (size_t)ac; i++)
+	for (i = 0; i < (size_t)ac; i++)
 	{
 		for (j = 0; j < strlen(av[i]); j++)
 		{
