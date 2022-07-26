@@ -12,7 +12,7 @@
 char *argstostr(int ac, char **av)
 {
 	char *str = NULL;
-	int i, j, idx = 0, len = 0;
+	size_t i, j, idx = 0, len = 0;
 
 	if (ac <= 1 || av == NULL)
 	{
